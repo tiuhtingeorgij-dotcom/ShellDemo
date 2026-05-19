@@ -1,3 +1,4 @@
+#МЕН-153201, Тюхтин
 CPPFLAGS = -Wall -ggdb
 MAIN = test
 OBJ = $(MAIN).o HStack.o
