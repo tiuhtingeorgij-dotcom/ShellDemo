@@ -6,7 +6,7 @@ $(MAIN).exe: $(OBJ)
 $%.o: $%.cpp
 $(OBJ):HStack.hpp
 run:
-	./$(MAIN).exe
+	$(MAIN).exe
 clean:
 	RM *.o *.exe
 all: $(MAIN).exe run clean
